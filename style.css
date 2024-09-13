@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: "Outfit", sans-serif; 
+    font-weight: 400; 
+    background: var(--slate-300);
+}
+.container { 
+    position: relative;
+    padding: 14px; 
+    height: 100vh;
+}
+
+.section {
+    text-align: center; 
+    border-radius: 10px; 
+    background: hsl(0, 0%, 100%); 
+    padding-top: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 200px;
+    height: 350px;
+    box-shadow: 2px 2px 10px var(--slate-500);
+}
+.paragraph-card {
+    margin-top: 10px;
+}
+
+img { 
+    border-radius: 10px; 
+}
+
+.paragraph-card { 
+    padding-left: 25px; 
+    padding-right: 25px; 
+    text-align: center;
+}
+
+.paragraph-one { 
+    color: var(--slate-900);
+    font-weight: bold; 
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.paragraph-two { 
+    color: var(--slate-500);
+    font-size: 13px; 
+    margin-top: 10px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 250px) {
+    .section {
+        width: 230px;
+        height: 350px;
+    }
+}
