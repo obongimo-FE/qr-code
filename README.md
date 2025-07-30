@@ -44,8 +44,8 @@ I would like to make the site more alive, by make it a qr-code generator for all
 
 ### Useful resources
 
-- [w3schools](https://www.example.com) - Both of them goes without saying!
-- [MDN](https://www.example.com) 
+- [w3schools](https://www.w3schools.com/w3css/default.asp) - Both of them goes without saying!
+- [MDN](https://developer.mozilla.org/en-US/) 
 
 ## Author
 
